@@ -1,0 +1,1 @@
+document.getElementById('prix').innerHTML = score[1]+"."+score[0]+" €";

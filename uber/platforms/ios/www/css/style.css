@@ -1,0 +1,193 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    margin:auto;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#07091F;
+    background-attachment:fixed;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+
+/* INTERFACE */
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.header{
+    position : absolute;
+    height: 60px;
+    top : 0;
+    left : 0;
+    right: 0;
+}
+
+#logo{
+    height:25px;
+    margin: auto;
+    margin-top:30px;
+    display:block;
+}
+
+.view{
+    position: absolute;
+    top:60px;
+    bottom:165px;
+    left:10px;
+    right:10px;
+}
+
+.panel{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow-x:hidden;
+    -webkit-overflow-scrolling:touch;
+    /*overflow-y:hidden;*/
+}
+
+h1{
+    color: white;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:20px;
+    margin-top:25px;
+
+}
+
+h2{
+    color: white;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size:10px;
+    margin-top:10px;
+}
+
+/* CREDITS */
+
+#coin{
+    display:block;
+    margin:auto;
+    height:30%;
+    margin-top:100px;
+}
+
+#bien{
+    font-size:30px;
+}
+
+#credit{
+    font-size:13px;
+    margin-top:20px;
+}
+
+
+
+/* // CREDITS */
+
+/* SCORES */
+
+table{
+    margin-top:10px;
+}
+
+.position{
+    opacity:0.4;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size:30px;
+}
+
+.name{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size:30px;
+    text-overflow:ellipsis;
+    width:100px;
+}
+
+.pts{
+    opacity:0.7;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size:30px;
+
+}
+
+/* // SCORES */
+
+
+#demoimage{
+    display:block;
+    margin:auto;
+    height:70%;
+    margin-top:20px;
+}
+.nav{
+    position : absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 165px;
+}
+
+.jouer{
+    border: 2px solid rgba(255, 255, 255, .15);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 40px;
+    background-color:#07091F;
+    color:white;
+    width:300px;
+    height:60px;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-size:30px;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
+
+.score{
+    border: 2px solid rgba(255, 255, 255, .15);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 40px;
+    background-color:#07091F;
+    color:white;
+    width:300px;
+    height:60px;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-size:30px;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+}
