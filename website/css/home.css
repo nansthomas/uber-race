@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+
+video {
+	z-index: -10;
+	width:100%;
+	position:absolute;
+}
+
+h1 {
+	padding-top: 20%;
+	font-size:0;
+	width: 20%;
+	height: 20px;
+	background: url('../img/UberRace_Logotype_Print_CMYK_White.png') no-repeat;
+	background-size: contain;
+}
+
+header .row {
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	color: #f6f6f6;
+}
+
+header li {
+	display:inline-block;
+	width: 30%;
+	padding: 10px 0px;
+	margin: 10px 10px 50%;
+	border: solid 2px #f6f6f6;
+	border-radius: 8%;
+}
+
+header li:hover {
+	background-color: rgba(2,185,216,1);
+	border-color: rgba(2,185,216,1);
+}
+
+li {
+	text-decoration: none;
+}
+
+.title2 {
+	margin-top: -25%;
+	text-transform: uppercase;
+	color:grey;
+}
+
+.title2 + p {
+	color:grey;
+}
+
+.friends {
+	background: url('../img/friends.png') no-repeat;
+	background-size: cover;
+	color: #f6f6f6;
+}
+
+.friends li {
+	display: inline-block;
+}
+
+.friends h2 {
+	text-transform: uppercase;
+}
+
+.friends li img {
+	margin: 15%;
+	width: 60%;
+}
+.friends .twelve {
+	margin: 10% 0 0;
+}
+
+.friends .six > img {
+	width: 20%;
+	margin: 0% 40% 15%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#slider_container{
+	margin-top: -400px;
+	margin-bottom: 50px;
+	width: 100%;
+	position: absolute;
+}
+
+#slider .iphone{
+  height:390px;
+  width:220px;
+  overflow:hidden;
+  margin: auto;
+  z-index: -100;
+
+  
+}
+
+.iphone{
+	display: block;
+	margin: auto;
+	margin-top: 70px;
+}
+
+#slider {
+  height:400px;
+  width:220px;
+  margin-left: 10px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: -15px;
+  
+  
+  
+}
+
+ul{
+	width: 100%;
+}
+
+#slider img {
+  height: 330px;
+  width: 220px;
+  margin-top: 0px;
+  float: left;
+  margin-right: 0px;
+  
+}
+
+#slider ul {
+  list-style: none;  
+  height:190px;
+  width:1500px;
+  position:relative;
+}
+
+#slider li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#mouseover {
+  height: 45px;
+  width: 45px;
+  margin: 50px;
+  background-color: #ccc;
+}
+
+#slider_btns {
+  list-style: none;
+  width: 200px;
+  text-align: center;
+}
+
+#slider_btns li {
+  display: inline-block;
+  background: #ebebeb;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  border: 2px solid silver;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#slider_btns li.active {
+  border-color: red;
+}
+
+.buttonBox{
+	height: 100px;
+	text-align: center;
+}
+
+.buttonBox span {
+	margin-top: 20px;
+  
+}
+
+.buttonBox span {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#banner{
+	width: 100%;
+	height: 296px;
+	overflow: hidden;
+
+}
+
+#banner ul{
+	margin-top: 20px;
+}
+
+
+#banner li{
+	display: inline;
+	margin: 10px;
+}
+#cover{
+	background:black;
+	opacity: 0.59;
+	z-index: 99;
+	position: absolute;
+	width: 100%;
+	height: 296px;
+	color: white;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 20px;
+}
+#cover p{
+	margin-top: 35px;
+}
+#cover img{
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+h3{
+	margin-top: 100px;
+	font-family: 'Lato';
+	font-size: 28px;
+	text-align: center;
+
+}
+
+
+
+
+#banner_backdrop{
+	position: relative;
+	background: url('../img/town4.jpg') repeat-x;
+
+	width: 4096px;
+	height: 711px;
+	-webkit-animation: backdrop_roll linear 10s infinite;
+	
+	
+
+}
+
+@-webkit-keyframes backdrop_roll{
+	from {right: 0px;}
+    to {right: 2048px;}
+
+}
+
+#car{
+	top:12.3em;
+	width: 550px;
+	height: 227px;
+	background: url('../img/car.png') no-repeat;
+	position: relative;
+	z-index: 2;
+	-webkit-animation: bounce 10s infinite ;
+	-webkit-animation-timing-function:linear;
+	
+	
+}
+
+@-webkit-keyframes bounce {
+    from {left: 0px;}
+    to {left: 2048px;}
+} 
+
+#car2{
+	float: right;
+	top:10.3em;
+	width: 550px;
+	height:369px;
+	background: url('../img/taxi.png') no-repeat;
+	position: absolute;
+	-webkit-animation: bouncesecond 10s infinite ;
+	-webkit-animation-timing-function:linear;
+	
+	
+}
+
+@-webkit-keyframes bouncesecond {
+    from {right: 0px;}
+    to {right: 2048px;}
+} 
+
